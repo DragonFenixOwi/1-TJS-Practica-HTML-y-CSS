@@ -1,0 +1,230 @@
+html,body
+        {
+            background: #FFFFFF;
+            padding: 100px;
+            margin: 100px;
+            font-size: 18px;
+            font-family: Helvetica Neue;
+            padding-bottom: 200em;
+        }
+section
+        {
+            width: 1366px;
+            height: 1213px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            background: rgb(240, 235, 235) 0% 0% no-repeat padding-box;
+            opacity: 1;
+            border: 1px solid #e4dcdc;
+            /* border: 3px solid black; */
+            display: table;           
+        }
+nav
+        {
+            text-align: left;
+            font: Bold 20px/25px Helvetica Neue;
+            letter-spacing: 0px;
+            color: #3A4875;
+            opacity: 1;
+            align-items: center;
+            padding: 0px;
+            position: absolute;
+            top: 10px;
+            height: 24px;
+            display: block;
+        }
+    nav ul
+        {
+            padding-left: 183px;
+            padding-right: 620px;
+            display: flex;
+        }
+    nav li
+        {
+            padding-right: 100px;
+            list-style: none;
+        }
+    nav li a
+        {
+            color: #3A4875;
+            text-decoration: none; 
+
+        }
+.degradado
+        {
+            border-radius: 20px;
+            position: absolute;
+            top: 70px;
+            left: 183px;
+            width: 1000px;
+            height: 294px;
+            background: transparent linear-gradient(180deg, #38426F 0%, #71BAEF 100%) 0% 0% no-repeat padding-box;
+            opacity: 1;
+
+        }
+.imagencompu
+    {
+        position: relative;
+        top: 410px;
+        left: 183px;
+        width: 350px;
+        height: 293px;
+        background: transparent url('../imagenes/Rectangulo.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+.parrafo
+    {
+        position: absolute;
+
+        top: 382px;
+        left: 582px;
+        width: 615px;
+        height: 293px;
+        text-align: left;
+        font-size: 22px;
+        font-family: Helvetica Neue;
+        font: Regular;
+        /* font: Regular 20px/24px Helvetica Neue; */
+        letter-spacing: 0px;
+        color: #3A4875;
+        opacity: 1;
+    }
+.primera_imagen
+    {
+        background: transparent url('../imagenes/Ana.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+        top: 809px;
+        left: 291px;
+        width: 204px;
+        height: 204px;
+    }
+.primer_nombre
+    {
+        background: transparent  0% 0% no-repeat padding-box;
+        text-align: left;
+        font: Regular 20px/24px Helvetica Neue;
+        letter-spacing: 0px;
+        font-weight: Bold;
+        color: #3A4875;
+        opacity: 1;
+        position: absolute;
+        top: 1022px;
+        left: 376px;
+        width: 35px;
+        height: 23px;   
+    }
+.posicion_laboral_1
+    {
+        text-align: left;
+        font: Light Italic 18px/22px Helvetica Neue;
+        letter-spacing: 0px;
+        color: #3A4875;
+        opacity: 1;
+        position: absolute;
+        top: 1045px;
+        left: 338px;
+        width: 111px;
+        height: 21px;
+    }
+.segunda_imagen
+    {
+        background: transparent url('../imagenes/Maria.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+        top: 809px;
+        left: 581px;
+        width: 204px;
+        height: 204px;
+    }
+.segundo_nombre
+    {
+        background: transparent  0% 0% no-repeat padding-box;
+        text-align: left;
+        font: Regular 20px/24px Helvetica Neue;
+        letter-spacing: 0px;
+        font-weight: Bold;
+        color: #3A4875;
+        opacity: 1;
+        position: absolute;
+        top: 1022px;
+        left: 666px;
+        width: 50px;
+        height: 23px;
+    }
+.posicion_laboral_2
+    {
+        text-align: left;
+        font: Light Italic 18px/22px Helvetica Neue;
+        letter-spacing: 0px;
+        color: #3A4875;
+        opacity: 1;
+        position: absolute;
+        top: 1045px;
+        left: 660px;
+        width: 62px;
+        height: 21px;
+    }
+.tercera_imagen
+    {
+        background: transparent url('../imagenes/Pedro.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        position: absolute;
+        top: 809px;
+        left: 871px;
+        width: 204px;
+        height: 204px;;
+    }
+.tercer_nombre
+    {
+        background: transparent  0% 0% no-repeat padding-box;
+        text-align: left;
+        font: Regular 20px/24px Helvetica Neue;
+        letter-spacing: 0px;
+        font-weight: Bold;
+        color: #3A4875;
+        opacity: 1;
+        position: absolute;
+        top: 1022px;
+        left: 948px;
+        width: 53px;
+        height: 23px;
+    }
+.posicion_laboral_3
+    {
+        text-align: left;
+        font: Light Italic 18px/22px Helvetica Neue;
+        letter-spacing: 0px;
+        color: #3A4875;
+        opacity: 1;
+        position: absolute;
+        top: 1045px;
+        left: 911px;
+        width: 127px;
+        height: 21px;
+    }
+footer
+    {
+        background: #38426F 0% 0% no-repeat padding-box;
+        border: 1px solid #707070;
+        opacity: 1;
+        position: absolute;
+        top: 1152px;
+        left: 0px;
+        width: 1366px;
+        height: 61px;
+    }
+.pie_de_pagina
+    {
+        text-align: left;
+        font: Regular 20px/24px Helvetica Neue;
+        letter-spacing: 0px;
+        color: white;
+        opacity: 1;
+        position: relative;
+        left: 604px;
+        width: 159px;
+        height: 23px;
+        top: 20px;
+    }
